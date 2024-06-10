@@ -24,7 +24,7 @@ body{
     justify-content: space-around;
     padding: 20px 0px;
     background-color: #1F2937;
-    border: red dotted 1px;
+    border: red dotted 2px;
 }
 #logo{
     color: white;
@@ -49,17 +49,24 @@ a{
 /* End of header css */
 
 
-/* Section 1 css - lines 27-36 */
-/* .container1{
+/* Section 1 css */
+.container-1{
+    border: red dotted 2px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.part-1{
+    border: green solid 2px;
     display: flex;
     flex-direction: column;
 }
-.section1{
+.part-2{
+    border: green solid 2px;
     display: flex;
+    flex-direction: column;
 }
-h2, p{
-    margin: 0;
-} */
+/* End of section 1 */
 
 
 /* Section 2 css - lines 39-77 */
