@@ -16,7 +16,7 @@ body{
     height: 200px;
 }
 
-/* The header of the page - lines 12-24 */
+/* Section 1 of the page */
 .header{
     display: flex;
     justify-content: center;
@@ -24,14 +24,12 @@ body{
     justify-content: space-around;
     padding: 20px 0px;
     background-color: #1F2937;
-    border: red dotted 2px;
 }
 #logo{
     color: white;
     margin: 0;
     font-weight: bold;
     font-size: 20px;
-    border: green solid 2px;
 }
 ul{
     list-style: none;
@@ -39,7 +37,6 @@ ul{
     gap: 20px;
     margin: 0;
     padding: 0;
-    border: green solid 2px;
 }
 a{
     text-decoration: none;
@@ -49,22 +46,19 @@ a{
 /* End of header css */
 
 
-/* Section 1 css */
-.container-1{
-    border: red dotted 2px;
+.content{
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    width: 100%;
 }
 .part-1{
-    border: green solid 2px;
     display: flex;
     flex-direction: column;
 }
+.part-1 button{
+    width: 100px;
+}
 .part-2{
-    border: green solid 2px;
-    display: flex;
-    flex-direction: column;
 }
 /* End of section 1 */
 
