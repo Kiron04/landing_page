@@ -14,6 +14,7 @@ body{
     justify-content:space-between;
     padding: 10px 100px 10px 100px; 
     background-color: #1f2937;
+    flex: 1;
 }
 .logo{
     color: white;
@@ -54,7 +55,7 @@ body{
     width: 100px;
     background-color: #3882f6;
     border: none;
-    border-radius: 10%;
+    border-radius: 5px;
     color: white;
     font-size: 14px;
 }
@@ -63,6 +64,7 @@ body{
     display: flex;
     background-color: #1f2937;
     justify-content: center;
+    flex: 1;
 }
 .content-1{
     margin-top: 40px;
@@ -72,6 +74,7 @@ body{
 /* Section 2 CSS */
 .section-2{
     padding: 0px 100px 30px 100px;
+    flex: 1;
 }
 .section-2-title{
     display: flex;
@@ -106,6 +109,7 @@ body{
     padding: 20px;
     display: flex;
     justify-content: center;
+    flex: 1;
 }
 .quote-block{
     display: flex;
@@ -125,4 +129,51 @@ body{
     margin: 0;
     margin-top: 10px;
     font-weight: bold;
+}
+
+
+/* Section 4 CSS */
+.section-4{
+    padding: 20px 100px;
+    flex: 1;
+}
+.call-to-action-container{
+    display: flex;
+    padding: 30px;
+    background-color: #3882f6;
+    gap: 50px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.call-to-action-text{
+    margin: 0;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+.call-to-action-subtext{
+    margin: 0;
+    color: white;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.call-to-action-button{
+    padding: 5px;
+    border-radius: 5px;
+    border: solid white 1px;
+    background-color: #3882f6;
+    width: 100px;
+    color: white;
+}
+
+
+/* Footer CSS */
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    flex: 1;
 }
